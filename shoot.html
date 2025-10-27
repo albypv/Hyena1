@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jet Shooting Game</title>
+  <link rel="stylesheet" href="shoot.css">
+</head>
+<body>
+  <div style="display:flex;align-items:flex-start;">
+    <!-- Vertical heading on the left, bottom to top -->
+    <div style="height:600px;display:flex;flex-direction:column-reverse;justify-content:flex-end;align-items:center;">
+      <div style="writing-mode:vertical-rl;transform:rotate(180deg);font-size:3em;font-weight:bold;letter-spacing:0.15em;color:#d35400;margin-bottom:20px;font-family:sans-serif;">
+        HYENA loves JUICE
+      </div>
+    </div>
+    <canvas id="gameCanvas" width="400" height="600"></canvas>
+    <div style="margin-left:24px;max-width:220px;">
+      <div id="playerStory" style="background:#222;color:#fff;padding:40px 40px;border-radius:10px;font-size:15px;line-height:1.5;">
+        <b>Back-Story:</b><br>
+        In the shadowy corridors, one name began to echo louder than the rest: Hyena.<br> Not content with history’s infamous tyrant hogging the spotlight, Hyena had a singular goal—to outdo him, with flair. She wasn’t just evil. She was strategically Fruity.
+      </div>
+      <button id="restartBtn" style="margin-top:20px; padding: 10px 20px; background-color: #d35400; color: #fff; border: none; border-radius: 5px; cursor: pointer;">Restart</button>
+    </div>
+  </div>
+  <script src="shoot.js"></script>
+</body>
+</html>
